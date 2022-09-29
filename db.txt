@@ -1,0 +1,30 @@
+Nome tabella: Auto Usate
+
+colonne:        
+id      BIGINT                  PK: AUTO_INCREMENT, UNIQUE, NOT_NULL
+modello                         VARCHAR(50) NOT_NULL
+casa_produttrice                VARCHAR(50) NOT_NULL
+targa  VARCHAR(7)               UNIQUE, NOT_NULL
+mese_immatricolazione           VARCHAR(2) O TIMESTAMP (Da chiedere), NOT_NULL
+anno_immatricolazione           YEAR    NOT_NULL
+paese_immatricolazione          VARCHAR(20), NULLABLE
+kilometri_percorsi              MEDIUMINT, NULLABLE
+kilowat                         SMALLINT, NULLABLE
+cavalli                         SMALLINT, NULLABLE
+trasmissione                    VARCHAR(20), NULLABLE
+carburante                      VARCHAR(20), NULLABLE
+emissioni_km                    VARCHAR(20), NULLABLE
+consumo_100km                   VARCHAR(20), NULLABLE
+trazione                        VARCHAR(20), NULLABLE
+antifurto                       TINYINT, NULLABLE
+sensori_parcheggio              TINYINT, NULLABLE    
+controllo_clima                 TINYINT, NULLABLE
+alzacristalli_elettrici         TINYINT, NULLABLE
+cruisecontrol                   TINYINT, NULLABLE
+abs                             TINYINT, NULLABLE
+cerchi                          VARCHAR(20), NULLABLE
+numero_proprietari              TINYINT, NULLABLE
+ultima_revisione                DATE, NULLABLE  
+prezzo                          MEDIUMINT, NULLABLE
+
+
